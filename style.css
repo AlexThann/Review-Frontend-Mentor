@@ -1,0 +1,118 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 9%;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    /* max-height: 320px;
+    height: 100%; */
+}
+
+.par {
+    font-size: 15px;
+    line-height: 1.6em;
+    color: hsl(216, 12%, 54%);
+}
+
+#svgThing {
+    padding: 0.8em;
+    border-radius: 50%;
+    border: rgba(0, 0, 0, 0.027);
+    display: inline-block;
+    background-color: hsla(216, 12%, 54%, 0.212);
+    margin-bottom: 15px;
+}
+
+#svgThing span {
+    display: flex;
+
+}
+
+#submitBut {
+    display: block;
+    width: 100%;
+    border-radius: 2em;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2.5px;
+    transition-duration: 0.3s;
+}
+
+#submitBut:active,
+#submitBut:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.custom-radio input {
+    display: none;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.radio-btn {
+    margin-bottom: 30px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(87, 82, 88, 0.3);
+    transition-duration: 0.3s;
+
+}
+
+.radio-btn:hover {
+    background-color: hsl(215, 5%, 56%);
+}
+
+
+.custom-radio input:checked+.radio-btn {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.numbr {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#svgThingThanks {
+    text-align: center;
+}
+
+#thankyou {
+    text-align: center;
+}
+
+#selectpar {
+    margin: 1rem 0;
+    color: hsl(25, 97%, 53%);
+    background-color: rgba(87, 82, 88, 0.3);
+    border-radius: 3em;
+    width: 60%;
+    padding: 0.3em 0.3em;
+}
+
+#grappar {
+    display: flex;
+    justify-content: center;
+}
+
+.displaynone {
+    display: none;
+}
